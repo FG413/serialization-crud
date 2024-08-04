@@ -1,27 +1,27 @@
 package repositroies;
 
-import model.Writer;
+import model.Post;
 
 import java.util.List;
 
-public class GsonWriterRepository implements WriterRepository{
+public class GsonPostRepository implements PostRepository{
     @Override
-    public Writer getById(Integer integer) {
+    public Post getById(Integer integer) {
         return null;
     }
 
     @Override
-    public List<Writer> getAll() {
+    public List<Post> getAll() {
         return null;
     }
 
     @Override
-    public Writer save(Writer writer) {
+    public Post save(Post post) {
         return null;
     }
 
     @Override
-    public Writer update(Writer writer) {
+    public Post update(Post post) {
         return null;
     }
 

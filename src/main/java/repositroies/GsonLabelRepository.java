@@ -1,27 +1,27 @@
 package repositroies;
 
-import model.Writer;
+import model.Label;
 
 import java.util.List;
 
-public class GsonWriterRepository implements WriterRepository{
+public class GsonLabelRepository implements LabelRepository{
     @Override
-    public Writer getById(Integer integer) {
+    public Label getById(Integer integer) {
         return null;
     }
 
     @Override
-    public List<Writer> getAll() {
+    public List<Label> getAll() {
         return null;
     }
 
     @Override
-    public Writer save(Writer writer) {
+    public Label save(Label label) {
         return null;
     }
 
     @Override
-    public Writer update(Writer writer) {
+    public Label update(Label label) {
         return null;
     }
 
